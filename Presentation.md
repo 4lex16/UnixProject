@@ -1,5 +1,5 @@
 
-# Presenation of the Monitoring Project
+# Presentation of the Monitoring Project
 
 ## Log In
 Once you've installed checkmk and got it running, when you open up the link, the page that will pop up is the one down below.
