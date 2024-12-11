@@ -15,6 +15,7 @@ Install zenity which allows us to open message boxes with custom messages
 2. You want to double check the paths that were laid out.
     - The Absolute paths can be checked using `which {package name}`
     - Double check the security file by using one of the commands that find the location of files.
+3. Give it executable permissioms by using the command `sudo chmod +x {filename}.sh`
 
 ## 2. Edit the visudo file (User Permissions)
 
