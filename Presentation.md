@@ -36,8 +36,19 @@ These are some of the important pages for users
 This is the function that decides where mygame is played or even fun in the slightest.
 ![Users Page](./presentationImages/users.png)
 ### Add Users
-This page allows you to add a new user and give them the ability to give all of the guysa and
+This page allows you to add a new user and give them what permissions you want to give them and set what systems they can monitor.
 ![Add Users](./presentationImages/adduser.png)
+## Monitoring Services & Stress Tests
+When clicking on certain services you can see the different specific processes and how much they are being used. I stress tested these processes using the stress package that Debian gave. For a few hours I would stress the processes for 10 minutes every 15 minutes. Keep in mind I did all these tests on different virtual machines.
+### CPU Usage
+Here I stressed the cpu load.
+![CPU Usage](./presentationImages/cpustress.png)
+### RAM Usage
+Here I stressed the Ram
+![RAM Usage](./presentationImages/ramstress.png)
+### I/O Usage
+Here I stressed the i/o
+![I/O Usage](./presentationImages/iostress.png)
 ## Script
 This is a showing of our script that shows the main computer (host of the website) an alertbox when there is someone logging in and they do not have the right data.
 ![Script Example](./presentationImages/script.jpg)
